@@ -1,0 +1,112 @@
+body{
+	background-color: #c0c0c0;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+/*header*/
+.caixa-cabecalho{
+	background-color: #008080;
+	margin: 0 0 50px 0;
+}
+.caixa-cabecalho .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	margin:  0 auto;
+	padding: 30px 0;
+}
+.titulo-cabecalho{
+	font-weight: bold;
+	font-size: 34px;
+}
+.itens li{
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	border-radius: 5px;
+	padding: 8px 10px;
+	margin: 15px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.itens li:hover{
+	transform: scale(1.1);
+}
+
+/*main*/
+.texto-receitas{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	margin: 20px 0 40px 0;
+}
+.caixa{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	margin: 0 10px 20px 10px;
+	padding: 20px;
+}
+.itens-receitas{
+	padding: 0 1rem 0 1rem;
+	display: grid;
+	grid-gap:.5rem;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50%;
+	height: calc(100vh - 50px);
+}
+.itens-receita{
+	background: rgba(255, 255, 255, .8);
+	padding: .5rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+
+}
+.receitas:nth-child(1){
+	background: url(../img/bolomaca.jpg) center / cover no-repeat;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	border: 5px solid #000;
+
+}
+.receitas:nth-child(2){
+	background: url(../img/bolomilho.jpg) center / cover no-repeat;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	border: 5px solid #000;
+}
+.receitas:nth-child(3){
+	background: url(../img/escondidinho.png) center / cover no-repeat;
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+	border: 5px solid #000;
+}
+.receitas:nth-child(4){
+	background: url(../img/quindim.png) center / cover no-repeat;
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	border: 5px solid #000;
+}
+.receitas:nth-child(5){
+	background: url(../img/pedemoleque.jpg) center / cover no-repeat;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	border: 5px solid #000;
+}
+.receitas:nth-child(6){
+	background: url(../img/torresmo.jpg) center / cover no-repeat;
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+	border: 5px solid #000;
+}
+
+/*footer*/
+
+.rodape{
+	background-color: #008080;
+	text-align: center;
+	padding: 50px 0;
+	margin-top: 50px;
+}

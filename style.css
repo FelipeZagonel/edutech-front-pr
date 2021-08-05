@@ -1,0 +1,84 @@
+body{
+	background-color: #c0c0c0;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+/*header*/
+.caixa-cabecalho{
+	background-color: #008080;
+}
+.caixa-cabecalho .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	margin:  0 auto;
+	padding: 30px 0;
+}
+.titulo-cabecalho{
+	font-weight: bold;
+	font-size: 34px;
+}
+.itens li{
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	border-radius: 5px;
+	padding: 8px 10px;
+	margin: 15px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.itens li:hover{
+	transform: scale(1.1);
+}
+/*main*/
+.corpo-pagina{
+	width: 65%;
+	margin: 0 auto;
+}
+h2{
+	font-weight: bold;
+	font-size: 28px;
+}
+p{
+	font-size: 24px;
+}
+.sobre-festa{
+	margin: 70px 0 30px 0;
+	width: 100%;
+}
+.imagem-sobre-festa{
+	display: block;
+	width: 40%;
+	margin: 0 10px 0 30px;
+	border: 2px solid #000;
+}
+.origem-festa{
+	margin: 0 0 30px 0;
+}
+.imagem-origem-festa{
+	display: block;
+	width: 30%;
+	margin: 0 30px 0 0;
+	border: 2px solid #000;
+}
+.festa-brasil{
+	margin: 60px 0 100px 0;
+}
+.imagem-festa-brasil{
+	display: block;
+	width: 30%;
+	margin: 0 30px 0 0;
+	border: 2px solid #000;
+}
+.extra-mais{
+	display: block;
+	height: 40vw;
+}
+/*footer*/
+.rodape{
+	background-color: #008080;
+	text-align: center;
+	padding: 50px 0;
+}
